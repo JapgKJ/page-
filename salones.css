@@ -56,28 +56,31 @@
 
 
   .box-gal{
-    background-color: rgb(0, 47, 255);
+    background-color: #F5DBB1;
     width: 30%;
     height: 75vh;
     margin: 5px 10px 0px 20px;    
     display: inline-block;
     border-radius: 5px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
-
-
+    position: static;
 
   }
 
   .box-son{
-    border: black solid 1px;
     border-radius: 5px;
     margin: 10px;
     width: 95%;
     height: 60%;
-    background-color: red;
-    overflow: hidden;
+    text-align: center;
+    position: static;
+
   }
   .box-son img {
     width: 100%;
     height: 100%;
+    border-radius: 5px;
+    
+    
+
   }
